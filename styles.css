@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-container {
+    display: flex; /* Utiliza flexbox para colocar los elementos en una fila */
+    justify-content: space-between; /* Distribuye uniformemente los elementos en la fila */
+    align-items: center; /* Centra verticalmente los elementos en la fila */
+    background-color: gray; /* Color de fondo de las pestañas */
+    padding: 10px 20px; /* Espaciado alrededor del contenedor */
+}
+
+.tab {
+    background-color: yellow; /* Color de fondo de las pestañas */
+    padding: 10px 20px; /* Espaciado interno de las pestañas */
+    border-radius: 5px; /* Bordes redondeados de las pestañas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre las pestañas */
+}
+
+.tab:hover {
+    background-color: skyblue; /* Cambia el color de fondo al pasar sobre las pestañas */
+}
